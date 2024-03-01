@@ -3,10 +3,6 @@ A POC for using Playwright in Cucumber.js.
 
 Tests are written using [Playwright](https://playwright.dev/docs/intro) as a library, and [Cucumber.js](https://cucumber.io/docs/guides/overview/) as a test runner.
 
-Based on the initialisation command:
-
-`npm init nightwatch`
-
 ## Installation
 Requires [Node.js](https://nodejs.org/).
 
