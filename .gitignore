@@ -14,16 +14,9 @@ node_modules/
 # Optional npm cache directory
 .npm
 
-# dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
-
-# Test run files
-/reports/
-/screenshots/
+# Cypress test run files
+/playwright/reports/
+/playwright/artifacts/
 # downloads?
 # outputs?
 

@@ -1,8 +1,10 @@
 {
-    "compilerOptions": {
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-    },
-    "include": ["**/*.ts"]
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "types": ["playwright", "node"],
+    "esModuleInterop": true,
+    "module": "node16"
+  },
+  "include": ["**/*.ts"]
 }
