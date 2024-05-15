@@ -31,8 +31,8 @@ Add the following file to the root of the project:
 
 ```JSON
 {
-  "cucumber.features": ["cypress/tests/**/*.ts"],
-  "cucumber.glue": ["cypress/tests/**/*.ts"],
+  "cucumber.features": ["playwright/tests/**/*.ts"],
+  "cucumber.glue": ["playwright/tests/**/*.ts"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[cucumber]": {
